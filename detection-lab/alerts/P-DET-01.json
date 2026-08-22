@@ -1,0 +1,29 @@
+{
+  "case_id": "P-DET-01",
+  "expected": "alert",
+  "actual": "alert",
+  "alerts": [
+    {
+      "technique_id": "T1003.001",
+      "technique_name": "LSASS Memory Dumping",
+      "tactic": "Credential Access",
+      "severity": 8,
+      "description": "System binary (regsvr32.exe) from services.exe",
+      "event_id": 1,
+      "timestamp": "2026-08-22T15:07:35.958592+00:00Z",
+      "computer": "TEST-HOST"
+    },
+    {
+      "technique_id": "T1003.001",
+      "technique_name": "LSASS Memory Dumping",
+      "tactic": "Credential Access",
+      "severity": 8,
+      "description": "System binary (regsvr32.exe) from services.exe",
+      "event_id": 2,
+      "timestamp": "2026-08-22T15:07:35.959864+00:00Z",
+      "computer": "TEST-HOST"
+    }
+  ],
+  "timestamp": "2026-08-22T15:07:35.960026+00:00Z",
+  "hash": "37558fd2"
+}

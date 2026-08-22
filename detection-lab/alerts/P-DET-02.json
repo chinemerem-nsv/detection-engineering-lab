@@ -1,0 +1,29 @@
+{
+  "case_id": "P-DET-02",
+  "expected": "alert",
+  "actual": "alert",
+  "alerts": [
+    {
+      "technique_id": "T1003.001",
+      "technique_name": "LSASS Memory Dumping",
+      "tactic": "Credential Access",
+      "severity": 7,
+      "description": "System binary (rundll32.exe) from explorer.exe with suspicious args",
+      "event_id": 1,
+      "timestamp": "2026-08-22T15:07:35.960121+00:00Z",
+      "computer": "TEST-HOST"
+    },
+    {
+      "technique_id": "T1218.011",
+      "technique_name": "Rundll32 System Binary Proxy",
+      "tactic": "Defense Evasion",
+      "severity": 6,
+      "description": "Rundll32 from explorer.exe with suspicious args",
+      "event_id": 1,
+      "timestamp": "2026-08-22T15:07:35.960121+00:00Z",
+      "computer": "TEST-HOST"
+    }
+  ],
+  "timestamp": "2026-08-22T15:07:35.960356+00:00Z",
+  "hash": "c31e17de"
+}
