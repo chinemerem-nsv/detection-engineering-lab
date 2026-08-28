@@ -1,0 +1,29 @@
+{
+  "case_id": "P-DET-09",
+  "expected": "alert",
+  "actual": "alert",
+  "alerts": [
+    {
+      "technique_id": "T1059.003",
+      "technique_name": "Windows Command Shell",
+      "tactic": "Execution",
+      "severity": 7,
+      "description": "Command shell from services.exe",
+      "event_id": 1,
+      "timestamp": "2026-08-27T20:36:27.461185+00:00Z",
+      "computer": "TEST-HOST"
+    },
+    {
+      "technique_id": "T1059.003",
+      "technique_name": "Windows Command Shell",
+      "tactic": "Execution",
+      "severity": 7,
+      "description": "Command shell from services.exe",
+      "event_id": 2,
+      "timestamp": "2026-08-27T20:36:27.461397+00:00Z",
+      "computer": "TEST-HOST"
+    }
+  ],
+  "timestamp": "2026-08-27T20:36:27.461547+00:00Z",
+  "hash": "2afdee53"
+}

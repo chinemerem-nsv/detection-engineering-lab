@@ -1,0 +1,19 @@
+{
+  "case_id": "P-DET-08",
+  "expected": "alert",
+  "actual": "alert",
+  "alerts": [
+    {
+      "technique_id": "T1003.001",
+      "technique_name": "LSASS Memory Dumping",
+      "tactic": "Credential Access",
+      "severity": 7,
+      "description": "System binary (regsvr32.exe) from sccm-client.exe with suspicious args",
+      "event_id": 1,
+      "timestamp": "2026-08-27T20:36:27.460727+00:00Z",
+      "computer": "TEST-HOST"
+    }
+  ],
+  "timestamp": "2026-08-27T20:36:27.461032+00:00Z",
+  "hash": "b3640f5f"
+}
